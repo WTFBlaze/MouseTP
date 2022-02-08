@@ -14,12 +14,6 @@ namespace MouseTP
 {
     public class Mod : MelonMod
     {
-        public override void OnApplicationStart()
-        {
-            MelonLogger.Msg("404 sucks major dick and can't code for shit.");
-            MelonLogger.Msg("I made the MouseTP mod but not retarded :)");
-        }
-
         public override void OnUpdate()
         {
             if (RoomManager.field_Internal_Static_ApiWorld_0 != null && RoomManager.field_Internal_Static_ApiWorldInstance_0 != null)
